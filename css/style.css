@@ -1,0 +1,81 @@
+*, *:after, *:before {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
+}
+
+
+body {
+font-family: 'Open Sans', arial, sans-serif;
+
+}
+
+/* Title */
+.header-childify {
+width: 100%;
+background: white;
+padding: 0px 0;
+position: relative;
+}
+.header-childify__title{
+    padding: 50px ;
+    position: relative;
+    color: black;
+    font-size: 58px
+}
+
+
+/* Navibation bar in top */
+.navbar-task {
+  background-color: #f2f2f2;
+  overflow: auto;
+  box-shadow: 3px 3px 1px rgba(0,0,0,.05);
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar-task a {
+  float: left;
+  padding: 28px;
+  text-decoration: none;
+  font-size: 47px;
+  width: 33%; /* Four links of equal widths */
+  text-align: center;
+}
+.navbar-task__a{
+  color: black;
+}
+.navbar-task__now{
+  background-color: #780096;
+  color: white;
+}
+
+/* Change the color of links on hover */
+.navbar-task a:hover {
+  background-color: #780096;
+  color: white;
+    
+}
+
+
+/* For task list */
+.task{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: rgba(95,60,107,0.3);
+    padding: 38px;
+    margin: 16px 0px;
+    
+}
+.task i {
+    float: right;
+    cursor: pointer;
+}
+.task p{
+    font-size: 38px
+}
+
+
+

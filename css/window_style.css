@@ -1,0 +1,109 @@
+/*Button add task */
+.add-task{
+   background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;        
+}
+
+.add-task a{
+  vertical-align: baseline;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 44px 16px;
+  text-decoration: none;
+  font-size: 57px;
+
+}
+
+/* Windows for add task */
+.windows-addtask {
+        width: 800px;
+        height: 700px;
+        color: black;
+        background: rgba(91,91,91,0.9);
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+      }
+
+
+.windows-addtask:target {display: block;}
+
+/* Buttom create new task */
+.windows-addtask__create{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background: #780096;
+    color: white;
+    font-size: 34pt;
+    padding: 16px;
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+    margin: 16px;
+}
+
+/* title "Create task" */
+.windows-addtask__title{
+     vertical-align: baseline;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+     font-size: 57px;
+    
+}
+
+.windows-addtask input{
+    vertical-align: baseline;
+     display: block;
+     color: black;
+     padding: 16px;
+     width: 700px;
+     text-decoration: none;
+     margin: 30px;
+     font-size: 30px;
+}
+
+.windows-addtask__create:hover {background: #e6e6ff;}
+/* Date time */
+.windows-addtask__datatime{
+    font-size: 30px;
+    padding: 0px 30px;
+    color: white;  
+}
+
+/* Point title */
+.windows-addtask__point__title{
+   width:60px;
+    float:left;
+    font-size:32px;
+    line-height:24px;
+    font-weight:bold;
+    color: white;
+    padding: 20px 30px         
+}
+
+/* Point block */
+.windows-addtask__point{
+     text-align: right;
+}
+
+/* Point input */
+.windows-addtask__point input{
+    width:auto;
+    text-align: right;
+    margin-left:150px;
+    line-height:18px;
+    padding:10px 10px;
+    font-size: 40px;   
+}
